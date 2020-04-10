@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/modul_gewicht_background">
+
+    <TextView
+        android:text="@string/title_weight_manuell"
+        style="@style/TabTitleText"/>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_datum"
+                android:layout_gravity="center_vertical"
+                android:textSize="14.0sp"/>
+            <TextView
+                android:id="@+id/datum"
+                style="@style/EditTextStyle"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="30.05.2015" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_zeit"
+                android:layout_gravity="center_vertical"
+                android:textSize="14.0sp"/>
+
+            <TextView
+                android:id="@+id/zeit"
+                android:text="5:00"
+                style="@style/EditTextStyle"
+                android:layout_height="40dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_gewicht_g"
+                android:textSize="14.0sp"/>
+            <EditText
+                android:id="@+id/gewicht"
+                style="@style/EditTextStyle"
+                android:numeric="decimal"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_kommentar"
+                android:textSize="14.0sp"/>
+            <EditText
+                android:id="@+id/kommentar"
+                style="@style/EditTextStyle"
+                android:gravity="center"/>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" >
+
+        <ImageButton
+            android:id="@+id/btn_reload"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
+            android:scaleType="fitXY"
+            android:layout_marginRight="190dp"
+            android:src="@drawable/reload"
+            android:background="@color/transparent"/>
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="@string/btn_save"
+            android:textAllCaps="false"
+            android:textColor="@color/lightgray"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" >
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp">
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@color/modul_temperatur_background">
+
+	<TextView
+		android:text="@string/title_temperature"
+		style="@style/TabTitleText"/>
+
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="1.0px"
+		android:background="@drawable/public_slip" />
+
+	<Button
+		android:id="@+id/btn_mannuell"
+		android:text="@string/btn_mannuell"
+		style="@style/ArrowButton"/>
+
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="1.0px"
+		android:background="@drawable/public_slip" />
+
+	<Button
+		android:id="@+id/btn_automatic"
+		android:text="Monitoring"
+		style="@style/ArrowButton"/>
+
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="1.0px"
+		android:background="@drawable/public_slip" />
+
+	<Button
+		android:id="@+id/btn_graphische_dartstellung"
+		android:text="@string/btn_graphics"
+		style="@style/ArrowButton"/>
+
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="1.0px"
+		android:background="@drawable/public_slip" />
+
+
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="1.0px"
+		android:background="@drawable/public_slip" />
+
+</LinearLayout>

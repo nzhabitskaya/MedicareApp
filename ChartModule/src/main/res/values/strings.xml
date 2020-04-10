@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ChartModule</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Graphic title -->
+    <string name="graphic_title">Graphic title</string>
+
+</resources>

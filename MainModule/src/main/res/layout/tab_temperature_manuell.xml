@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/modul_temperatur_background">
+
+    <TextView
+        android:text="Manuell erfassen"
+        style="@style/TabTitleText"/>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_datum"
+                android:layout_gravity="center_vertical"
+                android:textSize="14.0sp"/>
+            <TextView
+                android:id="@+id/datum"
+                style="@style/EditTextStyle"
+                android:layout_height="50dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_zeit"
+                android:layout_gravity="center_vertical"
+                android:textSize="14.0sp"/>
+
+            <TextView
+                android:id="@+id/zeit"
+                android:text="123"
+                style="@style/EditTextStyle"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_span="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_koerperstelle"
+                android:textSize="14.0sp"
+                android:layout_gravity="center"/>
+            <Spinner
+                android:id="@+id/spinner_koerperStelle"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:textSize="14.0sp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/lightgray"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_temperature"
+                android:textSize="14.0sp"/>
+            <EditText
+                android:id="@+id/temperature"
+                style="@style/EditTextStyle"
+                android:numeric="decimal"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_kommentar"
+                android:textSize="14.0sp"/>
+            <EditText
+                android:id="@+id/kommentar"
+                style="@style/EditTextStyle"
+                android:gravity="center"/>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" >
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="@string/btn_save"
+            android:textAllCaps="false"
+            android:textColor="@color/lightgray"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="15dp">
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+    </ScrollView>
+
+</LinearLayout>

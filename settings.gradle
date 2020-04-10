@@ -1,0 +1,1 @@
+include ':MainModule', ':WithingsModule', ':MaterialTabsModule', ':MedikamentModule', ':TemperaturModule', ':DatabaseModule', ':ChartModule', ':ScannerModule'

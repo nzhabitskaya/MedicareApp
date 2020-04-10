@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">eBabyNotebook</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Splash screen text -->
+    <string name="splash_app_name">eBabyNotebook</string>
+    <string name="splash_title_company">Ein elektronisches Tagebuch für Kleinkinder</string>
+
+    <!-- Tab Kinder Info -->
+    <string name="title_kinder_info">Angaben zum Kind</string>
+    <string name="title_name">Name</string>
+    <string name="title_geschlecht">Geschlecht</string>
+    <string name="title_geburtsdatum">Geburtsdatum</string>
+    <string name="title_geburtsgewicht">Geburtsgewicht</string>
+    <string name="geschlecht_m">m</string>
+    <string name="geschlecht_w">w</string>
+    <string name="title_geburt">Grösse beim Geburt (cm)</string>
+    <string name="title_ssw">Schwangerschaftswoche\n(SSW)</string>
+    <string name="btn_save">Speichern</string>
+
+    <!-- Tab Weight -->
+    <string name="title_gewicht">Gewicht</string>
+    <string name="btn_mannuell">Manuell erfassen</string>
+    <string name="btn_automatic">Automatisch erfassen</string>
+    <string name="btn_graphics">Graphische Darstellung</string>
+    <string name="btn_wachstumuberwachung">Wachstumüberwachung</string>
+
+    <!-- Tab Temperature -->
+    <string name="title_temperature">Temperatur</string>
+    <string name="unit">Unit</string>
+    <string name="btn_manuell">Manuell erfassen</string>
+    <string name="btn_monitoring">Temperatur Monitoring</string>
+
+
+    <!-- Tab Medikamente -->
+    <string name="title_medikamente">Medikamente</string>
+    <string name="btn_arzneimittelliste">Arzneimittelliste</string>
+    <string name="btn_erfassen">Neues Arzneimittel erfassen</string>
+    <string name="btn_einnahme">Einnahme Plan</string>
+    <string name="title_medikament_add">Medikamente -> Neues Arzneimittel erfassen</string>
+    <string name="title_bemerkungen">Bemerkungen</string>
+    <string name="title_einnahmeplan">Medikamente -> Einnahme Plan</string>
+    <string name="title_arzneimittelliste">Arzneimittelliste</string>
+
+    <!-- Tab Weight Manuell -->
+    <string name="title_weight_manuell">Gewicht -> Manuell Erfassen</string>
+    <string name="title_datum">Datum</string>
+    <string name="title_zeit">Zeit</string>
+    <string name="title_gewicht_g">Gewicht (g)</string>
+    <string name="title_kommentar">Kommentar</string>
+    <string name="title_type">Type</string>
+
+    <!-- Tab Graph Darstellung -->
+    <string name="title_weight_darstellung">Gewicht -> Graphische Darstellung</string>
+    <string name="title_darstellung_1">3 Tage</string>
+    <string name="title_darstellung_2">1 Woche</string>
+    <string name="title_darstellung_3">1 Monat</string>
+    <string name="title_darstellung_4">3 Monate</string>
+    <string name="title_darstellung_5">5 Monate</string>
+
+    <!-- Tab Settings -->
+    <string name="title_settings">Einstellungen</string>
+    <string name="btn_app_settings">Applikation Einstellungen</string>
+    <string name="btn_temperature_settings">Temperatur Einstellungen</string>
+    <string name="btn_weight_settings">Weight Settings</string>
+    <string name="btn_medicaments_settings">Medikamenten Einstellungen</string>
+    <string name="title_app_settings">Einstellungen -> Applikation Einstellungen</string>
+    <string name="title_temperature_settings">Einstellungen -> Temperatur Einstellungen</string>
+    <string name="title_weight_settings">Einstellungen -> Gewicht Einstellungen</string>
+    <string name="title_medicaments_settings">Einstellungen -> Medikament Einstellungen</string>
+    <string name="toggle_turn_on">EIN</string>
+    <string name="toggle_turn_off">AUS</string>
+
+    <!-- Other modules -->
+    <string name="title_module1">Module 1</string>
+    <string name="title_module2">Module 2</string>
+    <string name="title_module3">Module 3</string>
+    <string name="title_module4">Module 4</string>
+    <string name="title_module5">Module 5</string>
+
+    <!-- User messages -->
+    <string name="msg_user_is_not_authorized">Der Benutzer ist nicht autorisiert, wählen Sie bitte : „Einstellungen“ - > „Withings Einstellungen“ und geben Sie Ihre Benutzerdaten ein.</string>
+
+
+    <string name="tab_title_kinder_info">Angaben zu Kind</string>
+    <string name="tab_title_temperature">Current Temperature</string>
+    <string name="tab_title_medicaments">Medcine</string>
+    <string name="tab_title_weight">Weight</string>
+    <string name="tab_title_settings">Applikation Einstellungen</string>
+    <string name="tab_title_call_doctor">Call Doctor</string>
+
+    <string name="bluetooth_not_available">Bluetooth is not available</string>
+    <string name="bluetooth_health_profile_not_available">Bluetooth health profile is not available</string>
+    <string name="select_device">Select a device</string>
+    <string name="select_device_btn">Tap here to select a device</string>
+    <string name="status_reg">App registration status: %d</string>
+    <string name="status_unreg">App unregistration status: %d</string>
+    <string name="read_data">Reading data...</string>
+    <string name="read_data_done">Done with reading data...</string>
+    <string name="status_create_channel">Create channel status: %d</string>
+    <string name="status_destroy_channel">Destroy channel status: %d</string>
+
+    <string name="save_settings">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+
+    <string name="connected">CONNECTED</string>
+    <string name="disconnected">DISCONNECTED</string>
+
+    <!-- Settings panel -->
+    <string name="title_deviceselect">Connection</string>
+    <string name="titlewarningTemp">Alarm temperature setting</string>
+
+    <string name="set_alarm">Alarm actions</string>
+    <string name="set_alarm_sound">Sound</string>
+    <string name="set_alarm_call">Phone call</string>
+    <string name="set_alarm_vibration">Vibration</string>
+
+    <string name="titlephone">Dial setting</string>
+    <string name="set_phone">Phone</string>
+
+    <string name="titleUnit">Temperature setting</string>
+    <string name="set_temp">Temperature Unit</string>
+    <string name="set_tempF">°F</string>
+    <string name="set_tempC">°C</string>
+
+    <string name="options">Options</string>
+    <string name="refresh">Refresh</string>
+    <string name="connect">Connect</string>
+    <string name="close">Close</string>
+
+    <string name="default_temperature">0.0</string>
+    <string name="discover_more_devices">"Discover More Devices"</string>
+
+    <string name="warning">"Warning"</string>
+    <string name="msg_connection_error">"The device is unavailable. Try again."</string>
+    <string name="msg_phone_is_empty">"Doctor's phone is empty. Set phone in settings."</string>
+
+    <string name="call_doctor_text">"Here you can call doctor"</string>
+    <string name="call_btn">"Call"</string>
+    <string name="stop_alarm_btn">"Stop Alarm"</string>
+    <string name="title_temperature_manuell">Manuell erfassen</string>
+
+    <!-- Table header -->
+    <string name="table_title_unit">Unit</string>
+    <string name="table_title_temperatur">Temperatur</string>
+    <string name="table_title_typ">Typ</string>
+    <string name="table_title_datum">"Datum"</string>
+    <string name="table_title_zeit">"Zeit"</string>
+    <string name="table_title_gewicht">Gewicht</string>
+    <string name="table_title_kommentar">Kommentar</string>
+
+    <!-- Temperatur field -->
+    <string name="title_achselhoehle">Achselhohle</string>
+    <string name="title_stirn">Stirn</string>
+    <string name="title_gehoergang">Gehorgang</string>
+    <string name="title_mundhoehle">Mundhohle</string>
+    <string name="title_rektal">Rektal</string>
+    <string name="title_koerperstelle">Korperstelle</string>
+
+    <!-- Data format messages -->
+    <string name="weight_message">Geben Sie bitte das aktuelle Gewicht korrekt ein (g)</string>
+    <string name="temperatur_message">Geben Sie bitte die Temperatur zwischen 30.00° und 42.00° im Format XX.XX ein</string>
+</resources>

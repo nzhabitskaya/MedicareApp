@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- My simple colors -->
+    <color name="transparent">#00000000</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="blue">#1d41a6</color>
+    <color name="lightblue">#c4d6f5</color>
+    <color name="red">#ff0003</color>
+    <color name="gray">#bebebe</color>
+    
+    <color name="bg_top">#3e3e3e</color>
+    <color name="bg_bottom">#121212</color>
+    
+    <color name="green">#00af50</color>
+    <color name="lightgreen">#92d050</color>
+    <color name="yellow">#ffff00</color>
+    <color name="lightgray">#7e7e7e</color>
+    <color name="darkgray">#343434</color>
+    
+    <color name="border_color">#737c7e</color>
+    
+    <!-- new design -->
+    <color name="button_text_gray">#3f3f3f</color>
+    <color name="text_shadow">#FFFFFF</color>
+    <color name="edit_text_gray_border">#88898e</color>
+    <color name="edit_text_color">#6d6d6f</color>
+    <color name="edit_text_bg">#9955545a</color>
+    <color name="header_gray">#484848</color>
+
+    <!-- Splash screen colors -->
+    <color name="splash_blue">#62A5EF</color>
+
+    <!-- Tabs colors -->
+    <color name="modul_temperatur_background">#FFFFC0</color>
+    <color name="kind_profile_background">#91b5c6ff</color>
+    <color name="modul_gewicht_background">#7f9cfff7</color>
+    <color name="modul_medikamente_background">#FFC7E7</color>
+    <color name="menu_background">#EFD7F6</color>
+    <color name="modul_schlaf_background">#FFF7D5</color>
+    <color name="modul_impfung_background">#E0C7FF</color>
+    <color name="modul_arnährung_background">#C0F7D8</color>
+    <color name="modul_foto_background">#BAB7E7</color>
+    <color name="modul_maps_background">#FFFAFA</color>
+
+</resources>

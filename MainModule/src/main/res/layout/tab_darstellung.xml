@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/title_weight_darstellung"
+        style="@style/TabTitleText"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroup_darstellung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="left|center_vertical"
+        android:orientation="vertical"
+        android:checkedButton="@+id/darstellung_1"
+        android:padding="6dp">
+        <RadioButton
+            android:id="@+id/darstellung_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/title_darstellung_1"/>
+        <RadioButton
+            android:id="@+id/darstellung_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5.0px"
+            android:checked="false"
+            android:text="@string/title_darstellung_2" />
+        <RadioButton
+            android:id="@+id/darstellung_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/title_darstellung_3"/>
+        <RadioButton
+            android:id="@+id/darstellung_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5.0px"
+            android:checked="false"
+            android:text="@string/title_darstellung_4" />
+        <RadioButton
+            android:id="@+id/darstellung_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/title_darstellung_5"/>
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Withings</string>
+
+    <string name="title_automatisch_enfassen">Gewicht -> Automatisch Enfassen</string>
+    <string name="action_settings">Settings</string>
+    <string name="message_connection_error">Sie haben keine Internetverbindung</string>
+    <string name="ok">Ok</string>
+
+    <string name="web_dialog_title_login">Login to Withings web site.</string>
+    <string name="web_dialog_title_allow">Allow Withings access you application data.</string>
+
+    <!-- User messages -->
+    <string name="title_wait">Warten Sie bitte...</string>
+    <string name="msg_redirect_to_web">Sie werden zu web-service für die Autorisation umgeleitet</string>
+    <string name="warning">"Warnung"</string>
+    <string name="close">Schliessen</string>
+
+</resources>
